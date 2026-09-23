@@ -1,0 +1,1019 @@
+{
+ "method": "ecsq_wf",
+ "bits": 4.25,
+ "model": "Qwen/Qwen2.5-1.5B",
+ "infos": [
+  {
+   "bpw": 4.250017660501365,
+   "code_entropy": 4.242205160501365,
+   "levels": 563,
+   "layer": 0,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249991803705705,
+   "code_entropy": 4.239575137039038,
+   "levels": 203,
+   "layer": 0,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500175299885825,
+   "code_entropy": 4.249124672845725,
+   "levels": 284,
+   "layer": 0,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250000477920049,
+   "code_entropy": 4.239583811253382,
+   "levels": 230,
+   "layer": 0,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250004877290089,
+   "code_entropy": 4.242192377290089,
+   "levels": 239,
+   "layer": 1,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249989897252035,
+   "code_entropy": 4.239573230585368,
+   "levels": 125,
+   "layer": 1,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250003157959807,
+   "code_entropy": 4.24911030081695,
+   "levels": 282,
+   "layer": 1,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.25000176173978,
+   "code_entropy": 4.239585095073113,
+   "levels": 390,
+   "layer": 1,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250003067380354,
+   "code_entropy": 4.242190567380354,
+   "levels": 274,
+   "layer": 2,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249957437833045,
+   "code_entropy": 4.239540771166378,
+   "levels": 111,
+   "layer": 2,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997393038457,
+   "code_entropy": 4.2491045358956,
+   "levels": 272,
+   "layer": 2,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250004222068686,
+   "code_entropy": 4.239587555402019,
+   "levels": 244,
+   "layer": 2,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250016630629861,
+   "code_entropy": 4.242204130629861,
+   "levels": 258,
+   "layer": 3,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249968867165079,
+   "code_entropy": 4.239552200498412,
+   "levels": 137,
+   "layer": 3,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997589916822,
+   "code_entropy": 4.249104732773964,
+   "levels": 310,
+   "layer": 3,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250008963768486,
+   "code_entropy": 4.239592297101819,
+   "levels": 191,
+   "layer": 3,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250009420069511,
+   "code_entropy": 4.242196920069511,
+   "levels": 234,
+   "layer": 4,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500336434264945,
+   "code_entropy": 4.2396169767598275,
+   "levels": 128,
+   "layer": 4,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250001435942983,
+   "code_entropy": 4.249108578800126,
+   "levels": 254,
+   "layer": 4,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2499966336387,
+   "code_entropy": 4.239579966972033,
+   "levels": 205,
+   "layer": 4,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249998187306442,
+   "code_entropy": 4.242185687306442,
+   "levels": 259,
+   "layer": 5,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250012247382331,
+   "code_entropy": 4.2395955807156644,
+   "levels": 164,
+   "layer": 5,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250001504101615,
+   "code_entropy": 4.249108646958757,
+   "levels": 214,
+   "layer": 5,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.25003840236206,
+   "code_entropy": 4.239621735695393,
+   "levels": 284,
+   "layer": 5,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249994743631618,
+   "code_entropy": 4.242182243631618,
+   "levels": 437,
+   "layer": 6,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.24999886677781,
+   "code_entropy": 4.239582200111143,
+   "levels": 141,
+   "layer": 6,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2499987958752525,
+   "code_entropy": 4.249105938732395,
+   "levels": 201,
+   "layer": 6,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999325636877,
+   "code_entropy": 4.23958265897021,
+   "levels": 177,
+   "layer": 6,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249985110026237,
+   "code_entropy": 4.242172610026237,
+   "levels": 270,
+   "layer": 7,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250001910007233,
+   "code_entropy": 4.239585243340566,
+   "levels": 152,
+   "layer": 7,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250002103497208,
+   "code_entropy": 4.249109246354351,
+   "levels": 213,
+   "layer": 7,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250004283040931,
+   "code_entropy": 4.239587616374264,
+   "levels": 196,
+   "layer": 7,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250019023788758,
+   "code_entropy": 4.242206523788758,
+   "levels": 380,
+   "layer": 8,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250037153547232,
+   "code_entropy": 4.239620486880565,
+   "levels": 136,
+   "layer": 8,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999877449553,
+   "code_entropy": 4.249107020306695,
+   "levels": 204,
+   "layer": 8,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.25002256928237,
+   "code_entropy": 4.239605902615703,
+   "levels": 188,
+   "layer": 8,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249980782815804,
+   "code_entropy": 4.242168282815804,
+   "levels": 241,
+   "layer": 9,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249987294179473,
+   "code_entropy": 4.239570627512806,
+   "levels": 172,
+   "layer": 9,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249994035845904,
+   "code_entropy": 4.249101178703047,
+   "levels": 209,
+   "layer": 9,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249992611471871,
+   "code_entropy": 4.239575944805204,
+   "levels": 216,
+   "layer": 9,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249993978531766,
+   "code_entropy": 4.242181478531766,
+   "levels": 276,
+   "layer": 10,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2499932011755694,
+   "code_entropy": 4.2395765345089025,
+   "levels": 220,
+   "layer": 10,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500001617403,
+   "code_entropy": 4.249107304597443,
+   "levels": 221,
+   "layer": 10,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249986014226283,
+   "code_entropy": 4.239569347559616,
+   "levels": 219,
+   "layer": 10,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249919520662952,
+   "code_entropy": 4.242107020662952,
+   "levels": 275,
+   "layer": 11,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250018811353632,
+   "code_entropy": 4.239602144686965,
+   "levels": 214,
+   "layer": 11,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250000221793931,
+   "code_entropy": 4.249107364651073,
+   "levels": 250,
+   "layer": 11,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250003798798672,
+   "code_entropy": 4.239587132132005,
+   "levels": 243,
+   "layer": 11,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249990951798294,
+   "code_entropy": 4.242178451798294,
+   "levels": 240,
+   "layer": 12,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249980757141287,
+   "code_entropy": 4.23956409047462,
+   "levels": 194,
+   "layer": 12,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999990508681,
+   "code_entropy": 4.249107133365824,
+   "levels": 239,
+   "layer": 12,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250006024922879,
+   "code_entropy": 4.239589358256212,
+   "levels": 264,
+   "layer": 12,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.2499893563732085,
+   "code_entropy": 4.2421768563732085,
+   "levels": 226,
+   "layer": 13,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.24993719691927,
+   "code_entropy": 4.239520530252603,
+   "levels": 166,
+   "layer": 13,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999699728718,
+   "code_entropy": 4.249106842585861,
+   "levels": 235,
+   "layer": 13,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250008682350699,
+   "code_entropy": 4.239592015684032,
+   "levels": 225,
+   "layer": 13,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250020265585243,
+   "code_entropy": 4.242207765585243,
+   "levels": 375,
+   "layer": 14,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250039894177646,
+   "code_entropy": 4.239623227510979,
+   "levels": 204,
+   "layer": 14,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250002833239946,
+   "code_entropy": 4.249109976097088,
+   "levels": 220,
+   "layer": 14,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250005054558131,
+   "code_entropy": 4.239588387891464,
+   "levels": 275,
+   "layer": 14,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250018936027879,
+   "code_entropy": 4.242206436027879,
+   "levels": 476,
+   "layer": 15,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500113783565485,
+   "code_entropy": 4.239594711689882,
+   "levels": 194,
+   "layer": 15,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249984493029719,
+   "code_entropy": 4.249091635886861,
+   "levels": 242,
+   "layer": 15,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250007510550045,
+   "code_entropy": 4.239590843883378,
+   "levels": 281,
+   "layer": 15,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.24998026858333,
+   "code_entropy": 4.24216776858333,
+   "levels": 280,
+   "layer": 16,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250043689715097,
+   "code_entropy": 4.23962702304843,
+   "levels": 165,
+   "layer": 16,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.25000171842747,
+   "code_entropy": 4.249108861284612,
+   "levels": 253,
+   "layer": 16,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250006535995998,
+   "code_entropy": 4.239589869329331,
+   "levels": 267,
+   "layer": 16,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.2499989522498325,
+   "code_entropy": 4.2421864522498325,
+   "levels": 280,
+   "layer": 17,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249980135689917,
+   "code_entropy": 4.23956346902325,
+   "levels": 145,
+   "layer": 17,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997107361682,
+   "code_entropy": 4.249104250218824,
+   "levels": 279,
+   "layer": 17,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249990315824168,
+   "code_entropy": 4.239573649157501,
+   "levels": 286,
+   "layer": 17,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250005666048854,
+   "code_entropy": 4.242193166048854,
+   "levels": 295,
+   "layer": 18,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249986506988043,
+   "code_entropy": 4.239569840321376,
+   "levels": 222,
+   "layer": 18,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249994336281332,
+   "code_entropy": 4.249101479138474,
+   "levels": 274,
+   "layer": 18,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997249786088,
+   "code_entropy": 4.239580583119421,
+   "levels": 237,
+   "layer": 18,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250005943459426,
+   "code_entropy": 4.242193443459426,
+   "levels": 275,
+   "layer": 19,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997377669125,
+   "code_entropy": 4.239580711002458,
+   "levels": 223,
+   "layer": 19,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250002667524226,
+   "code_entropy": 4.249109810381369,
+   "levels": 250,
+   "layer": 19,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500025605123115,
+   "code_entropy": 4.2395858938456445,
+   "levels": 355,
+   "layer": 19,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.2499886647936975,
+   "code_entropy": 4.2421761647936975,
+   "levels": 283,
+   "layer": 20,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250046803105641,
+   "code_entropy": 4.239630136438974,
+   "levels": 191,
+   "layer": 20,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250000482493844,
+   "code_entropy": 4.2491076253509865,
+   "levels": 239,
+   "layer": 20,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250019280550869,
+   "code_entropy": 4.239602613884202,
+   "levels": 299,
+   "layer": 20,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250023084593546,
+   "code_entropy": 4.242210584593546,
+   "levels": 270,
+   "layer": 21,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249995191462575,
+   "code_entropy": 4.239578524795908,
+   "levels": 141,
+   "layer": 21,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249997301541698,
+   "code_entropy": 4.24910444439884,
+   "levels": 214,
+   "layer": 21,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250004696762775,
+   "code_entropy": 4.239588030096108,
+   "levels": 382,
+   "layer": 21,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250002914687015,
+   "code_entropy": 4.242190414687015,
+   "levels": 295,
+   "layer": 22,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250010578635105,
+   "code_entropy": 4.239593911968438,
+   "levels": 150,
+   "layer": 22,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249998290797472,
+   "code_entropy": 4.249105433654615,
+   "levels": 218,
+   "layer": 22,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999595559196,
+   "code_entropy": 4.239582928892529,
+   "levels": 256,
+   "layer": 22,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249999827885475,
+   "code_entropy": 4.242187327885475,
+   "levels": 318,
+   "layer": 23,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250002008584289,
+   "code_entropy": 4.239585341917622,
+   "levels": 129,
+   "layer": 23,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999771750302,
+   "code_entropy": 4.249106914607444,
+   "levels": 213,
+   "layer": 23,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999826965063,
+   "code_entropy": 4.239583160298396,
+   "levels": 266,
+   "layer": 23,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249998909186331,
+   "code_entropy": 4.242186409186331,
+   "levels": 351,
+   "layer": 24,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249963038964675,
+   "code_entropy": 4.239546372298008,
+   "levels": 132,
+   "layer": 24,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250002531285185,
+   "code_entropy": 4.2491096741423275,
+   "levels": 212,
+   "layer": 24,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250017006880659,
+   "code_entropy": 4.239600340213992,
+   "levels": 257,
+   "layer": 24,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.249973404179605,
+   "code_entropy": 4.242160904179605,
+   "levels": 415,
+   "layer": 25,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500658632115895,
+   "code_entropy": 4.239649196544923,
+   "levels": 389,
+   "layer": 25,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249998891548197,
+   "code_entropy": 4.249106034405339,
+   "levels": 205,
+   "layer": 25,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2500032531782965,
+   "code_entropy": 4.23958658651163,
+   "levels": 287,
+   "layer": 25,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250084271064117,
+   "code_entropy": 4.242271771064117,
+   "levels": 463,
+   "layer": 26,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250021194530305,
+   "code_entropy": 4.239604527863638,
+   "levels": 179,
+   "layer": 26,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249999463568561,
+   "code_entropy": 4.249106606425704,
+   "levels": 248,
+   "layer": 26,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.2499986854185385,
+   "code_entropy": 4.239582018751872,
+   "levels": 264,
+   "layer": 26,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  },
+  {
+   "bpw": 4.250004551038126,
+   "code_entropy": 4.242192051038126,
+   "levels": 483,
+   "layer": 27,
+   "group": "qkv",
+   "rows": 2048,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.250080806382049,
+   "code_entropy": 4.239664139715382,
+   "levels": 423,
+   "layer": 27,
+   "group": "o",
+   "rows": 1536,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.249998239414838,
+   "code_entropy": 4.24910538227198,
+   "levels": 283,
+   "layer": 27,
+   "group": "gate_up",
+   "rows": 17920,
+   "cols": 1536
+  },
+  {
+   "bpw": 4.25000498122868,
+   "code_entropy": 4.239588314562013,
+   "levels": 525,
+   "layer": 27,
+   "group": "down",
+   "rows": 1536,
+   "cols": 8960
+  }
+ ],
+ "ppl": 9.39615737681083,
+ "bpw": 4.25000153909489,
+ "code_entropy": 4.245362183352593,
+ "seconds": 1097.4839897155762
+}

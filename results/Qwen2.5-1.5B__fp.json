@@ -1,0 +1,8 @@
+{
+ "method": "fp",
+ "bits": null,
+ "model": "Qwen/Qwen2.5-1.5B",
+ "infos": [],
+ "ppl": 9.269493245025291,
+ "seconds": 140.53646230697632
+}
